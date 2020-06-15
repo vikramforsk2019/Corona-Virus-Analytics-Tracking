@@ -8,4 +8,5 @@ create a csv file (covid19_data.csv)
 2.then serach the coordinate by the city name <br/>
 3.latitude and longitude insert in csv file which is covid19_data_map.csv.
 
+![corona_map](https://user-images.githubusercontent.com/51817568/84629290-aff62f00-af07-11ea-936c-ec167da89340.png)
 
