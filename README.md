@@ -3,9 +3,9 @@ Corona virus Live update scrapping from MoHFW.(Ministry of Health and Family Wel
 # COVID-19 Statewise Status
 Data scrapping using selenium in python
 create a csv file (corona_data.csv)
-# Data Preprocessing 
+# Data Preprocessing  <br/>
 1.Data cleaning <br/>
-2.then serach the coordinate by the city name \n
+2.then serach the coordinate by the city name <br/>
 3.latitude and longitude insert in csv file which is corona_data_map.csv.
 
 
