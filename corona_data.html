@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_ffd1a91f34664cb6ad6a6771452977f9 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_ffd1a91f34664cb6ad6a6771452977f9" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_ffd1a91f34664cb6ad6a6771452977f9 = L.map(
+        'map_ffd1a91f34664cb6ad6a6771452977f9', {
+        center: [20.5937, 78.9629],
+        zoom: 5,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_548b185a11ce44419a000616e12fb1c7 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_ffd1a91f34664cb6ad6a6771452977f9);
+    var tile_layer_3189e9717b774223a1c2c7a321f2aa0f = L.tileLayer(
+        'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_ffd1a91f34664cb6ad6a6771452977f9);
+    
+            var marker_cluster_8d224ff7f86f421b82edb559d4e16688 = L.markerClusterGroup({});
+            map_ffd1a91f34664cb6ad6a6771452977f9.addLayer(marker_cluster_8d224ff7f86f421b82edb559d4e16688);
+            
+    
+        var marker_d127a95e65814769be433dc6a42766ef = L.marker(
+            [27.18, 78.01],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_8d224ff7f86f421b82edb559d4e16688);
+        
+    
+            var popup_ca489c62fb73444096c503f0c90b8798 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_813b7004074d4986ae10b9bd6b14de9f = $('<div id="html_813b7004074d4986ae10b9bd6b14de9f" style="width: 100.0%; height: 100.0%;">hare krishna hare krishna hare hare hare ram</div>')[0];
+                popup_ca489c62fb73444096c503f0c90b8798.setContent(html_813b7004074d4986ae10b9bd6b14de9f);
+            
+
+            marker_d127a95e65814769be433dc6a42766ef.bindPopup(popup_ca489c62fb73444096c503f0c90b8798)
+            ;
+
+            
+        
+    
+        var marker_aff8a008983748af90db0adf0e6f66bc = L.marker(
+            [26.9124, 75.7873],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_8d224ff7f86f421b82edb559d4e16688);
+        
+    
+            var popup_a0d05b0a50e149469b0e945b06a45b4b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_62339bff8fc84ef78dbe75a43bb70f17 = $('<div id="html_62339bff8fc84ef78dbe75a43bb70f17" style="width: 100.0%; height: 100.0%;">hare krishna hare krishna hare hare hare ram</div>')[0];
+                popup_a0d05b0a50e149469b0e945b06a45b4b.setContent(html_62339bff8fc84ef78dbe75a43bb70f17);
+            
+
+            marker_aff8a008983748af90db0adf0e6f66bc.bindPopup(popup_a0d05b0a50e149469b0e945b06a45b4b)
+            ;
+
+            
+        
+    
+        var marker_d8c7a91d78e644aaa2efc00da589ea02 = L.marker(
+            [25.2138, 75.8648],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(marker_cluster_8d224ff7f86f421b82edb559d4e16688);
+        
+    
+            var popup_7451456ef02f46d1885108bd1b93b5ba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be68904b59e84faaaa2e2581492302f6 = $('<div id="html_be68904b59e84faaaa2e2581492302f6" style="width: 100.0%; height: 100.0%;">hare krishna hare krishna hare hare hare ram</div>')[0];
+                popup_7451456ef02f46d1885108bd1b93b5ba.setContent(html_be68904b59e84faaaa2e2581492302f6);
+            
+
+            marker_d8c7a91d78e644aaa2efc00da589ea02.bindPopup(popup_7451456ef02f46d1885108bd1b93b5ba)
+            ;
+
+            
+        
+</script>

@@ -83,8 +83,12 @@ for i in range(0,len(url)):
             data_lat.insert(i,"18.1124")
         print('coordinate not:',url2[i])
     else:
-        data_lon.insert(i,new_data["coord"]["lon"])
-        data_lat.insert(i,new_data["coord"]["lat"])
+        if(url2[i]=="Bihar"):
+            data_lon.insert(i,"85.3131")
+            data_lat.insert(i,"25.0961")
+        else:
+            data_lon.insert(i,new_data["coord"]["lon"])
+            data_lat.insert(i,new_data["coord"]["lat"])
 df['log']=data_lon
 df['lat']=data_lat
 
