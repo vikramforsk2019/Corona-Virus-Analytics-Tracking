@@ -1,0 +1,164 @@
+1592150467525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.koEPa9TWuYsI"
+1592150469323	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592150471285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592150471285	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592150471286	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592150471286	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592150477601	Marionette	INFO	Listening on port 46603
+1592150477721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592152472275	Marionette	INFO	Stopped listening on port 46603
+1592183697135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w80iOGuXXTwL"
+1592183703542	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592183706238	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592183706238	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592183706238	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592183706239	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592183713903	Marionette	INFO	Listening on port 36733
+1592183713960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592183754955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KsSQBAR3JxKa"
+1592183758177	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592183760563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592183760563	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592183760564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592183760564	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592183765332	Marionette	INFO	Listening on port 38621
+1592183765506	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592184018292	Marionette	INFO	Stopped listening on port 36733
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=synacor_xapi&endpoint=us-east, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://eus.rubiconproject.com/usync.html?p=33across&endpoint=eu, line 12: SecurityError: The operation is insecure.
+JavaScript error: https://www.geeksforgeeks.org/python-pandas-dataframe-insert/ line 1 > scriptElement, line 1: TypeError: e is not a function
+JavaScript error: https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js, line 8: Error: Mismatched anonymous define() module: function(){return nt}
+http://requirejs.org/docs/errors.html#mismatch
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://cdn.adpushup.com/40792/adpushup.js, line 1: TypeError: window.adpushup.adpTags is undefined
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1592188608147	Marionette	INFO	Stopped listening on port 38621
