@@ -35,7 +35,7 @@ for row in right_table.find_elements_by_tag_name('tr'):
         F.append(cells[5].text.strip())
 col_data = OrderedDict(zip(col_name,[B,C,D,E,F]))
 df = pd.DataFrame(col_data) 
-df.to_csv("covid19_data.csv")  #scrapped covid 19 data from live website in india.
+df.to_csv("covid19_data.csv",index= False)  #scrapped covid 19 data from live website in india.
 browser.quit()
 
 #find the coordinate of the states in india using state name in covid19.csv
@@ -50,7 +50,7 @@ url2 = ""
 url3 = "&appid=e9185b28e9969fb7a300801eb026de9c"
 
 df=pd.read_csv('covid19_data.csv')
-df=df.drop(["Unnamed: 0"],axis=1)
+#df=df.drop(["Unnamed: 0"],axis=1)
 df=df.iloc[:35,:]
 df.info()
 
@@ -66,16 +66,29 @@ for i in range(0,len(url)):
     data= response.content
     new_data=json.loads(data)
     if new_data['cod']=='404':
-        print('coordinate not found state:',url2[i])
-        data_lon.insert(i,"81.3509")
-        data_lat.insert(i,"21.1938")
+        if(url2[i]=="Andaman and Nicobar Islands"):
+            data_lon.insert(i,"92.6586")
+            data_lat.insert(i,"11.7401")
+        elif(url2[i]=="Dadra and Nagar Haveli and Daman and Diu"):
+            data_lon.insert(i,"72.8397")
+            data_lat.insert(i,"20.4283")
+        elif(url2[i]=="Jammu and Kashmir"):
+            data_lon.insert(i,"76.5762")
+            data_lat.insert(i,"33.7782")
+        elif(url2[i]=="Ladakh"):
+            data_lon.insert(i,"77.577049")
+            data_lat.insert(i,"34.152588")
+        elif(url2[i]=="Telangana"):
+            data_lon.insert(i,"79.0193")
+            data_lat.insert(i,"18.1124")
+        print('coordinate not:',url2[i])
     else:
         data_lon.insert(i,new_data["coord"]["lon"])
         data_lat.insert(i,new_data["coord"]["lat"])
 df['log']=data_lon
 df['lat']=data_lat
 
-
+df.to_csv("covid19_data_map.csv",index = False)
 
 
 
