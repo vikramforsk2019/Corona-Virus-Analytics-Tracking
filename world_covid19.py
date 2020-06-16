@@ -8,7 +8,7 @@ Created on Mon Jun 15 19:07:34 2020
 
 import pandas as pd
 from selenium import webdriver
-from collections import OrderedDict
+#from collections import OrderedDict
 #from bs4 import BeautifulSoup as BS
 url="https://www.worldometers.info/coronavirus/"
 #driver path
@@ -32,5 +32,11 @@ for row in right_table:
      data_list.append(i.text)
   data_list2.append(data_list)
   data_list=[]
-df2=pd.DataFrame(data_list2)  
-    
+df=pd.DataFrame(data_list2)  
+df=df.iloc[:,1:14]
+df.columns=col_name
+
+df.to_csv("covid19_world_data.csv",index= False)
+browser.quit()
+
+#df=pd.read_csv('covid19_world_data.csv')

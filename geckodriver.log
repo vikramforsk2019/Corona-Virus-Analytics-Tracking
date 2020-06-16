@@ -255,3 +255,14 @@ Exiting due to channel error.
 1592300074123	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.worldometers.info/coronavirus/, line 21251: unreachable code after return statement
 JavaScript warning: https://www.worldometers.info/coronavirus/, line 21307: unreachable code after return statement
+1592304569463	Marionette	INFO	Stopped listening on port 37279
+1592304573429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.topNF6pDoQ3U"
+1592304578144	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1592304581416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1592304581416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1592304581416	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1592304581417	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1592304588469	Marionette	INFO	Listening on port 41015
+1592304588520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.worldometers.info/coronavirus/, line 21276: unreachable code after return statement
+JavaScript warning: https://www.worldometers.info/coronavirus/, line 21332: unreachable code after return statement
