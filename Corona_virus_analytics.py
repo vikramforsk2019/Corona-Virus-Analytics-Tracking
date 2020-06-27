@@ -88,5 +88,16 @@ df.iloc[:10,1:5].plot.hist(stacked=True, bins=20)
 
 df.iloc[:10,1:5].hist(figsize=(6, 4))
 
+import numpy as np
+from pandas.plotting import table
+fig, ax = plt.subplots(1, 1)
+table(ax, np.round(df.iloc[0:1:,1:2].describe(), 2),loc='upper right',colWidths=[0.2])
+df.plot(ax=ax, ylim=(0, 2), legend=None)
+
+
+df.iloc[:,1:5].plot(colormap='cubehelix')
+
+#parallel_coordinates(df, 'Name', colormap='gist_rainbow')
+
 
 
