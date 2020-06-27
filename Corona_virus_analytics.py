@@ -58,28 +58,35 @@ df['Deaths**'].iloc[:5].plot.kde();
 
 df['Deaths**'].iloc[:5].plot.scatter();
 
-df2 = pd.DataFrame(df['Deaths**'].iloc[:5], columns=df['Name of State / UT'].iloc[:5])
-df2.plot.bar()
-
-
 
 plt.bar(df['Name of State / UT'].iloc[:5].values,df['Deaths**'].iloc[:5].values,color = "red")
 
 
 
+plt.barh(df['Name of State / UT'].iloc[:10].values, df['Deaths**'].iloc[:10].values,color='red')
+plt.barh(df['Name of State / UT'].iloc[15:20].values, df['Deaths**'].iloc[15:20].values,color='yellow')
+plt.xlabel('States', fontsize=15)
+plt.ylabel('NO of Deaths', fontsize=15)
+plt.xticks(df['Name of State / UT'].iloc[:5].values, fontsize=10, rotation=45)
+plt.title('Corona-Virus Analytics')
+plt.show()
+
+#import numpy as np
+#df2 = pd.DataFrame(np.random.rand(10, 4), columns=['a', 'b', 'c', 'd'])
+
+df.iloc[:10,1:5].plot.bar();
+
+df.iloc[:10,1:5].plot.bar(stacked=True);
+
+df.iloc[:10,1:5].plot.barh(stacked=True);
 
 
+df.iloc[:10,1:5].plot.hist(alpha=0.5);
+
+df.iloc[:10,1:5].plot.hist(stacked=True, bins=20)
 
 
-
-
-
-
-
-
-
-
-
+df.iloc[:10,1:5].hist(figsize=(6, 4))
 
 
 
