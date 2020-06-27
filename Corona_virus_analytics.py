@@ -34,3 +34,52 @@ map.save('corona_map.html')
 #creating a html iframe
 from IPython.display import HTML
 HTML('<iframe src=plot_data.html width=300 height=200></iframe>')
+
+
+
+#visualize data using matplotlib
+import matplotlib.pyplot as plt
+import seaborn as sns
+import matplotlib
+
+#df2 = pd.DataFrame(np.random.rand(10, 4), columns=['a', 'b', 'c', 'd'])
+
+df['Active Cases*'].plot.bar();
+df['Cured/Discharged/Migrated*'].plot.bar();
+df['Deaths**'].plot.bar();
+df['Total Confirmed cases*'].plot.bar();
+
+df['Deaths**'].iloc[:5].plot.barh();
+df['Deaths**'].iloc[:5].plot.pie();
+df['Deaths**'].iloc[:5].plot.line();
+df['Deaths**'].iloc[:5].plot.hist();
+df['Deaths**'].iloc[:5].plot.box();
+df['Deaths**'].iloc[:5].plot.kde();
+
+df['Deaths**'].iloc[:5].plot.scatter();
+
+df2 = pd.DataFrame(df['Deaths**'].iloc[:5], columns=df['Name of State / UT'].iloc[:5])
+df2.plot.bar()
+
+
+
+plt.bar(df['Name of State / UT'].iloc[:5].values,df['Deaths**'].iloc[:5].values,color = "red")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
