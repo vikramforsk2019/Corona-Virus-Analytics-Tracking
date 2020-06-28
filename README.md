@@ -21,4 +21,5 @@ it is all store in covid19_map_data.csv
 ![Corona Deaths](Death2.png)
 ![Corona Deaths](foo.png)
 ![Corona Deaths](foo2.png)
-
+# Corona Discharged visualization in india in top 5 states
+![Corona Deaths](Recover.png)
