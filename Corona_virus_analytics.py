@@ -145,6 +145,21 @@ plt.legend()
 plt.savefig('Death.png')
 plt.show()
 
+#Fatest Corona Recover States/Cured/Discharged/Migrated*
+df_sorted= df.sort_values( by='Cured/Discharged/Migrated*', ascending = [False])
+df_sorted.head(10)
+
+df_sorted['Cured/Discharged/Migrated*'].head(10).plot.pie()
+
+#Top 5 state Deaths %
+import matplotlib.pyplot as plt
+
+plt.pie(df_sorted['Cured/Discharged/Migrated*'].head(5),labels=df_sorted['Name of State / UT'].head(5), autopct='%.0f%%')
+#Top 5 state no of Deaths 
+plt.barh(df_sorted['Name of State / UT'].head(5),df_sorted['Cured/Discharged/Migrated*'].head(5),color='orange',label="Corona Discharged in INDIA")
+plt.legend()
+plt.savefig('Recover.png')
+plt.show()
 
 
 
