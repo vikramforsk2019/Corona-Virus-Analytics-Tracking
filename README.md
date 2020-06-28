@@ -16,4 +16,4 @@ by using this perform all preprocessing operation and using Folium Library visua
 it is all store in covid19_map_data.csv
 
 ![corona_map](https://user-images.githubusercontent.com/51817568/84761826-a217db00-afe7-11ea-81fa-adbe854fe226.png)
-      ![Corona Deaths](Death.png)
+</table>![Corona Deaths](Death.png) </table>
