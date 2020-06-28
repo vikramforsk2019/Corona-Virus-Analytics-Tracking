@@ -40,7 +40,7 @@ HTML('<iframe src=plot_data.html width=300 height=200></iframe>')
 #visualize data using matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
-import matplotlib
+
 
 #df2 = pd.DataFrame(np.random.rand(10, 4), columns=['a', 'b', 'c', 'd'])
 
@@ -98,6 +98,11 @@ df.plot(ax=ax, ylim=(0, 2), legend=None)
 df.iloc[:,1:5].plot(colormap='cubehelix')
 
 #parallel_coordinates(df, 'Name', colormap='gist_rainbow')
+
+df.iloc[:,1:5].plot.area()
+df.iloc[:,1:5].plot.area(stacked=True)
+
+df.iloc[:,1:5].plot.kde()
 
 
 
