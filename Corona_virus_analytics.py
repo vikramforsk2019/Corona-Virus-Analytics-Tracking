@@ -63,11 +63,12 @@ plt.bar(df['Name of State / UT'].iloc[:5].values,df['Deaths**'].iloc[:5].values,
 
 
 
-plt.barh(df['Name of State / UT'].iloc[:10].values, df['Deaths**'].iloc[:10].values,color='red')
-plt.barh(df['Name of State / UT'].iloc[15:20].values, df['Deaths**'].iloc[15:20].values,color='yellow')
-plt.xlabel('States', fontsize=15)
-plt.ylabel('NO of Deaths', fontsize=15)
-plt.xticks(df['Name of State / UT'].iloc[:5].values, fontsize=10, rotation=45)
+plt.barh(df['Name of State / UT'].iloc[:10].values, df['Deaths**'].iloc[:10].values,color='green')
+plt.barh(df['Name of State / UT'].iloc[15:20].values, df['Deaths**'].iloc[15:20].values,color='blue')
+plt.xlabel('NO of Death', fontsize=15)
+plt.ylabel('States', fontsize=15)
+#plt.xticks(df['Name of State / UT'].iloc[:5].values, fontsize=10, rotation=45)
+plt.savefig('ALL.png')
 plt.title('Corona-Virus Analytics')
 plt.show()
 
@@ -138,12 +139,11 @@ df_sorted['Deaths**'].head(10).plot.pie()
 #Top 5 state Deaths %
 import matplotlib.pyplot as plt
 plt.pie(df_sorted['Deaths**'].head(5),labels=df_sorted['Name of State / UT'].head(5), autopct='%.0f%%')
-
 #Top 5 state no of Deaths 
 plt.barh(df_sorted['Name of State / UT'].head(5),df_sorted['Deaths**'].head(5),color='red',label="Corona Deaths in INDIA")
 plt.legend()
+plt.savefig('Death.png')
 plt.show()
-
 
 
 
