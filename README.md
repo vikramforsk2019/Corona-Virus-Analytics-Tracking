@@ -14,5 +14,11 @@ it is all store in covid19_data.csv
 # Covid19_virus_Analytics.py
 by using this perform all preprocessing operation and using Folium Library visualize the data on the Google map.
 it is all store in covid19_map_data.csv
-
+# Corona-Virus map using Folium 
 ![corona_map](https://user-images.githubusercontent.com/51817568/84761826-a217db00-afe7-11ea-81fa-adbe854fe226.png)
+# Corona visualization in india in top 5 states
+![Corona Deaths](Death.png)
+![Corona Deaths](Death2.png)
+![Corona Deaths](foo.png)
+![Corona Deaths](foo2.png)
+
