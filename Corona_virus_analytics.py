@@ -98,7 +98,7 @@ from pandas.plotting import table
 fig, ax = plt.subplots(1, 1)
 table(ax, np.round(df.iloc[0:1:,1:2].describe(), 2),loc='upper right',colWidths=[0.2])
 df.plot(ax=ax, ylim=(0, 2), legend=None)
-plot.
+
 
 df.iloc[:,1:5].plot(colormap='cubehelix')
 
@@ -133,14 +133,16 @@ print('Total Discharged Patients in Rajasthan',df2['Cured/Discharged/Migrated*']
 df_sorted= df.sort_values( by='Deaths**', ascending = [False])
 df_sorted.head(10)
 
+df_sorted['Deaths**'].head(10).plot.pie()
 
+#Top 5 state Deaths %
+import matplotlib.pyplot as plt
+plt.pie(df_sorted['Deaths**'].head(5),labels=df_sorted['Name of State / UT'].head(5), autopct='%.0f%%')
 
-
-
-
-
-
-
+#Top 5 state no of Deaths 
+plt.barh(df_sorted['Name of State / UT'].head(5),df_sorted['Deaths**'].head(5),color='red',label="Corona Deaths in INDIA")
+plt.legend()
+plt.show()
 
 
 
