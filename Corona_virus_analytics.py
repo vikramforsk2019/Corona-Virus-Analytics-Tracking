@@ -75,6 +75,8 @@ plt.show()
 #df2 = pd.DataFrame(np.random.rand(10, 4), columns=['a', 'b', 'c', 'd'])
 
 df.iloc[:10,1:5].plot.bar();
+# OR
+ax = df.iloc[:10,1:5].plot(kind='bar')
 
 df.iloc[:10,1:5].plot.bar(stacked=True);
 
@@ -88,12 +90,15 @@ df.iloc[:10,1:5].plot.hist(stacked=True, bins=20)
 
 df.iloc[:10,1:5].hist(figsize=(6, 4))
 
+# Draw a graph with pandas and keep what's returned
+
+
 import numpy as np
 from pandas.plotting import table
 fig, ax = plt.subplots(1, 1)
 table(ax, np.round(df.iloc[0:1:,1:2].describe(), 2),loc='upper right',colWidths=[0.2])
 df.plot(ax=ax, ylim=(0, 2), legend=None)
-
+plot.
 
 df.iloc[:,1:5].plot(colormap='cubehelix')
 
@@ -102,7 +107,49 @@ df.iloc[:,1:5].plot(colormap='cubehelix')
 df.iloc[:,1:5].plot.area()
 df.iloc[:,1:5].plot.area(stacked=True)
 
-df.iloc[:,1:5].plot.kde()
+fig=df.iloc[:,1:5].plot.kde(figsize=(20, 16), fontsize=26).get_figure()
+fig.savefig('foo.png')
+
+#All image-based file formats, such as PNG or JPG, will come with some quality loss.
+#You can increase (or decrease) the quality of the plot by setting the dpi. For example, if you want to create a higher quality PNG export:
+#plt.savefig('line_plot_hq.png', dpi=300,transparent=True)  
+#fig.savefig('foo.png',dpi=300, quality=80, optimize=True, progressive=True)
+
+
+#total daeths,Active cases ,cured in INDIA
+print('Total Deaths in INDIA',df['Deaths**'].sum())
+print('Total Active cases in INDIA',df['Active Cases*'].sum())
+print('Total Discharged Patients',df['Cured/Discharged/Migrated*'].sum())
+
+#total deaths ,Active cases,Cured in Rajasthan
+state='Rajasthan'
+df2=df[df['Name of State / UT']==state]
+
+print('Total Deaths in Rajasthan',df2['Deaths**'].sum())
+print('Total Active cases in Rajasthan',df2['Active Cases*'].sum())
+print('Total Discharged Patients in Rajasthan',df2['Cured/Discharged/Migrated*'].sum())
+
+##= To find the Highest Deaths State
+df_sorted= df.sort_values( by='Deaths**', ascending = [False])
+df_sorted.head(10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
