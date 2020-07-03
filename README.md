@@ -12,7 +12,8 @@ Data scrapping using selenium in python.show the data statewise list Death,Cured
 3.clean the data <br>
 4.remove noisy data <br>
 5.create csv file
-# Corona_data.py {scrap data,clean,csv}
+6.take latitude and longitude from http://api.openweathermap.org using state name.
+# Corona_data.py {scrap data,clean,coordinate,csv}
 using this first scrap all data from live website which update by goverment of india.</br>
 it is all store in covid19_data.csv
 # Covid19_virus_Analytics.py 
