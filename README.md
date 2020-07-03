@@ -1,17 +1,21 @@
+# About the repo
+Remote Source:https://github.com/vikramforsk2019/Corona-Virus-Analytics-Tracking
+
 # Corona-Virus-Analytics-Tracking
 Corona virus Live update scrapping from MoHFW.(Ministry of Health and Family Welfare in india))
+https://www.mohfw.gov.in/ is the official website of Ministry of Health and Family Welfare (MoHFH) Government of India.
 # COVID-19 Statewise Status
-Data scrapping using selenium in python.show the data statewise using folium map with labelled information.
+Data scrapping using selenium in python.show the data statewise list Death,Cured,Active etc.
 # Methodlogy
 1.scrap the data </br>
 2.perfrom preprocessing </br>
 3.clean the data <br>
 4.remove noisy data <br>
 5.create csv file
-# Corona_data.py
-using this first scrap all data from live website which update by goverment any moment.</br>
+# Corona_data.py {scrap data,clean,csv}
+using this first scrap all data from live website which update by goverment of india.</br>
 it is all store in covid19_data.csv
-# Covid19_virus_Analytics.py
+# Covid19_virus_Analytics.py 
 by using this perform all preprocessing operation and using Folium Library visualize the data on the Google map.
 it is all store in covid19_map_data.csv
 # Corona-Virus map using Folium 
