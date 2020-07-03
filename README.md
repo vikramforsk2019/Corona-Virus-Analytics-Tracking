@@ -1,6 +1,3 @@
-# About the repo
-Remote Source:https://github.com/vikramforsk2019/Corona-Virus-Analytics-Tracking
-
 # Corona-Virus-Analytics-Tracking
 Corona virus Live update scrapping from MoHFW.(Ministry of Health and Family Welfare in india))
 https://www.mohfw.gov.in/ is the official website of Ministry of Health and Family Welfare (MoHFH) Government of India.
