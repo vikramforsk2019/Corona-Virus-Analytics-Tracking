@@ -27,4 +27,5 @@ it is all store in covid19_map_data.csv
 # Corona Analytics with Power BI
 ![Corona Deaths](bi1.png)
 ![Corona Deaths](bi2.png)
+![Corona Deaths](bi3.png)
 Dashboard link:https://app.powerbi.com/groups/me/dashboards/e6bbde2b-c8c9-4a4d-90dd-26c11b272aa3?ctid=9a99984a-d810-43f1-b992-dd5f00d2f333
