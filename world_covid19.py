@@ -8,6 +8,7 @@ Created on Mon Jun 15 19:07:34 2020
 
 import pandas as pd
 from selenium import webdriver
+from datetime import datetime
 #from collections import OrderedDict
 #from bs4 import BeautifulSoup as BS
 url="https://www.worldometers.info/coronavirus/"
@@ -36,7 +37,12 @@ df=pd.DataFrame(data_list2)
 df=df.iloc[:,1:14]
 df.columns=col_name
 
-df.to_csv("covid19_world_data.csv",index= False)
+dir_csv='covid19_daily'
+filename = datetime.now().strftime('Date-%Y-%m-%d.csv')
+df.to_csv(dir_csv+'/'+filename,index= False)
 browser.quit()
 
-#df=pd.read_csv('covid19_world_data.csv')
+df=pd.read_csv('covid19_world_data.csv')
+new_df = df.dropna(axis=0,how='all')
+
+new_df = new_df.dropna(axis=1,thresh=30)
