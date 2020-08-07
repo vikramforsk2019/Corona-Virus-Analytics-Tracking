@@ -20,6 +20,7 @@ by using this perform all preprocessing operation and using Folium Library visua
 it is all store in covid19_map_data.csv
 # Corona-Virus map using Folium 
 ![corona_map](https://user-images.githubusercontent.com/51817568/84761826-a217db00-afe7-11ea-81fa-adbe854fe226.png)
+![Screenshot from 2020-08-05 19-00-58](https://user-images.githubusercontent.com/51817568/89418771-210ad380-d74e-11ea-8b89-bb376052bcaa.png)
 # Corona visualization in india in top 5 states
 ![Corona Deaths](Death.png)
 ![Corona Deaths](Death2.png)
