@@ -4,28 +4,27 @@ from collections import OrderedDict
 #from bs4 import BeautifulSoup as BS
 url="https://www.mohfw.gov.in/"
 #driver path
-browser = webdriver.Firefox(executable_path="/home/jagveer/anaconda3/geckodriver")
+browser = webdriver.Firefox(executable_path="/home/vikram/anaconda3/geckodriver")
 browser.get(url)
 right_table=browser.find_element_by_class_name('table')
 
 get_corona = browser.find_element_by_xpath('/html/body/div/div/div/section[3]/div/div/div/h2/a')
 get_corona.click()
-get_col=browser.find_element_by_xpath('/html/body/div/div/div/section[3]/div/div/div/div/table/thead/tr')
-column_name=get_col.find_elements_by_tag_name('th') #Give column name
-col_name=[]
-for i in range(1,len(column_name)):
-    col_name.append(column_name[i].text)
-#A=[]
+get_data=browser.find_element_by_xpath('/html/body/div/div/div/section[3]/div/div/div/div/table/tbody')
+#column_name=browser.find_elements_by_xpath('/html/body/div/div/div/section[3]/div/div/div/div/table/thead') #Give column name
+col_name=['Name of State','Active Cases*','Active Cases* yesterday','Cured/Discharged/Migrated*','Recover since yesterday','Deaths**','Deaths** since yesterday']
 B=[]
 C=[]
 D=[]
 E=[]
 F=[]
+G=[]
+H=[]
 col=[]
-for row in right_table.find_elements_by_tag_name('tr'):
+for row in get_data.find_elements_by_tag_name('tr'):
     cells = row.find_elements_by_tag_name('td')
     
-    if len(cells) == 6:
+    if len(cells) == 8:
        # col.append(column_name[0].text.strip)
        # A.append(cells[0].text.strip())  #no need serial no.
         B.append(cells[1].text.strip())#cells[0] remove bcoz it is se no. it take automaticly
@@ -33,7 +32,9 @@ for row in right_table.find_elements_by_tag_name('tr'):
         D.append(cells[3].text.strip())
         E.append(cells[4].text.strip())
         F.append(cells[5].text.strip())
-col_data = OrderedDict(zip(col_name,[B,C,D,E,F]))
+        G.append(cells[6].text.strip())
+        H.append(cells[7].text.strip())        
+col_data = OrderedDict(zip(col_name,[B,C,D,E,F,G,H]))
 df = pd.DataFrame(col_data) 
 df.to_csv("covid19_data.csv",index= False)  #scrapped covid 19 data from live website in india.
 browser.quit()
@@ -66,6 +67,7 @@ for i in range(0,len(url)):
     data= response.content
     new_data=json.loads(data)
     if new_data['cod']=='404':
+        print('coordinate not:',url2[i])
         if(url2[i]=="Andaman and Nicobar Islands"):
             data_lon.insert(i,"92.6586")
             data_lat.insert(i,"11.7401")
@@ -78,17 +80,15 @@ for i in range(0,len(url)):
         elif(url2[i]=="Ladakh"):
             data_lon.insert(i,"77.577049")
             data_lat.insert(i,"34.152588")
-        elif(url2[i]=="Telangana"):
+        elif(url2[i]=="Telengana"):
             data_lon.insert(i,"79.0193")
             data_lat.insert(i,"18.1124")
-        print('coordinate not:',url2[i])
-    else:
-        if(url2[i]=="Bihar"):
-            data_lon.insert(i,"85.3131")
-            data_lat.insert(i,"25.0961")
         else:
-            data_lon.insert(i,new_data["coord"]["lon"])
-            data_lat.insert(i,new_data["coord"]["lat"])
+            print('not found')
+    else:
+        print(url2[i])
+        data_lon.insert(i,new_data["coord"]["lon"])
+        data_lat.insert(i,new_data["coord"]["lat"])
 df['log']=data_lon
 df['lat']=data_lat
 
